@@ -2,8 +2,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-data_1 = pd.read_csv('HMS-HBA-Baseline/data/submission_40_1.csv') #0.35
-data_2 = pd.read_csv('HMS-HBA-Baseline/data/submission_40_2.csv')
+data_1 = pd.read_csv('HMS-HBA-Baseline/data/submission_35.csv') #0.35
+data_2 = pd.read_csv('HMS-HBA-Baseline/data/submission_new.csv')
 
 row_data_1 = data_1.loc[0]
 row_data_2 = data_2.loc[0]
